@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: "Century Gothic", sans-serif;
+}
+
+header{
+width:100%;
+}
+
+
+.navlist{
+  width:100%;
+  height: 60px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  position: fixed;
+  background-color: #110e2bbb;
+ 
+}
+
+
+.navlist .logo img{
+width:240px; height:78px;
+padding-right:30px;
+padding-left: 120px;
+
+
+}
+
+.navlist ul{
+display: flex;
+list-style: none;
+}
+.navlist ul li{
+width:110px;
+margin:0.7px;
+padding:0.7px;
+}
+
+.navlist ul li a{
+text-decoration:none;
+color:white;
+}
+
+.navlist ul li a:hover{
+  color: #ff8800;
+}
+
+.news{
+    width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.left{
+    width: 65%;
+    padding-top: 130px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+}
+ img{
+    width:780px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.right{
+    width: 30%;
+    margin-top: 60px;
+    background-color: rgb(236, 233, 233,0.9);
+    margin-left:50px;
+    padding-top: 90px;
+    padding-left:40px;
+    
+}
+p{
+    font-size: 16px;
+}
+h1{
+    color: rgb(39, 39, 126);
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.rows h4{
+   color:rgb(253, 146, 59);
+}
+.rows h4:hover{
+color: #f19020;
+
+}
+.footer-fixed-bar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.footer-fixed-bar a {
+    color: white;
+}
+
+footer a {
+    color: white;
+    outline: 0;
+    text-decoration: none;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+
+.college1 {
+    align-items: center;
+}
+
+.radio_logo {
+    margin-left: 560px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+footer-fixed-bar {
+background: rgba(30, 30, 30, 0.95);
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+text-align: center;
+z-index: 11;
+padding: 5px 0;
+outline: 0;
+text-decoration: none;
+}
+.footer-fixed-bar a {
+outline: 0;
+text-decoration: none;
+}
+
+
